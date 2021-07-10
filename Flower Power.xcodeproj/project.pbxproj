@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A91D5E9F269A0E370036AF85 /* FlowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D5E9E269A0E370036AF85 /* FlowersViewController.swift */; };
+		A91D5EA1269A10020036AF85 /* FlowersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D5EA0269A10020036AF85 /* FlowersModel.swift */; };
+		A91D5EA3269A22A40036AF85 /* ParseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D5EA2269A22A40036AF85 /* ParseData.swift */; };
+		A91D5EA6269A58430036AF85 /* CustomViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D5EA4269A58430036AF85 /* CustomViewCell.swift */; };
+		A91D5EA7269A58430036AF85 /* CustomViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A91D5EA5269A58430036AF85 /* CustomViewCell.xib */; };
 		A9414D8A2699B7F3005898A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9414D892699B7F3005898A6 /* AppDelegate.swift */; };
 		A9414D8C2699B7F3005898A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9414D8B2699B7F3005898A6 /* SceneDelegate.swift */; };
-		A9414D8E2699B7F3005898A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9414D8D2699B7F3005898A6 /* ViewController.swift */; };
 		A9414D912699B7F3005898A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9414D8F2699B7F3005898A6 /* Main.storyboard */; };
 		A9414D932699B7F4005898A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9414D922699B7F4005898A6 /* Assets.xcassets */; };
 		A9414D962699B7F4005898A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9414D942699B7F4005898A6 /* LaunchScreen.storyboard */; };
+		A9BA2B80269A5F6100A38CC8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BA2B7F269A5F6100A38CC8 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A91D5E9E269A0E370036AF85 /* FlowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersViewController.swift; sourceTree = "<group>"; };
+		A91D5EA0269A10020036AF85 /* FlowersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowersModel.swift; sourceTree = "<group>"; };
+		A91D5EA2269A22A40036AF85 /* ParseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseData.swift; sourceTree = "<group>"; };
+		A91D5EA4269A58430036AF85 /* CustomViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewCell.swift; sourceTree = "<group>"; };
+		A91D5EA5269A58430036AF85 /* CustomViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomViewCell.xib; sourceTree = "<group>"; };
 		A9414D862699B7F3005898A6 /* Flower Power.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flower Power.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9414D892699B7F3005898A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9414D8B2699B7F3005898A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9414D8D2699B7F3005898A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9414D902699B7F3005898A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9414D922699B7F4005898A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9414D952699B7F4005898A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9414D972699B7F4005898A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BA2B7F269A5F6100A38CC8 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A91D5E9B269A0DB30036AF85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A91D5EA0269A10020036AF85 /* FlowersModel.swift */,
+				A9BA2B7F269A5F6100A38CC8 /* DetailsViewController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A91D5E9C269A0DBD0036AF85 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				A91D5EA2269A22A40036AF85 /* ParseData.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		A91D5E9D269A0DC80036AF85 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9414D942699B7F4005898A6 /* LaunchScreen.storyboard */,
+				A9414D8F2699B7F3005898A6 /* Main.storyboard */,
+				A91D5EA5269A58430036AF85 /* CustomViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A9414D7D2699B7F3005898A6 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +93,14 @@
 		A9414D882699B7F3005898A6 /* Flower Power */ = {
 			isa = PBXGroup;
 			children = (
+				A91D5E9D269A0DC80036AF85 /* View */,
+				A91D5E9C269A0DBD0036AF85 /* View Model */,
+				A91D5E9B269A0DB30036AF85 /* Model */,
+				A91D5E9E269A0E370036AF85 /* FlowersViewController.swift */,
+				A91D5EA4269A58430036AF85 /* CustomViewCell.swift */,
 				A9414D892699B7F3005898A6 /* AppDelegate.swift */,
 				A9414D8B2699B7F3005898A6 /* SceneDelegate.swift */,
-				A9414D8D2699B7F3005898A6 /* ViewController.swift */,
-				A9414D8F2699B7F3005898A6 /* Main.storyboard */,
 				A9414D922699B7F4005898A6 /* Assets.xcassets */,
-				A9414D942699B7F4005898A6 /* LaunchScreen.storyboard */,
 				A9414D972699B7F4005898A6 /* Info.plist */,
 			);
 			path = "Flower Power";
@@ -125,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9414D962699B7F4005898A6 /* LaunchScreen.storyboard in Resources */,
+				A91D5EA7269A58430036AF85 /* CustomViewCell.xib in Resources */,
 				A9414D932699B7F4005898A6 /* Assets.xcassets in Resources */,
 				A9414D912699B7F3005898A6 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +177,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9414D8E2699B7F3005898A6 /* ViewController.swift in Sources */,
+				A91D5EA1269A10020036AF85 /* FlowersModel.swift in Sources */,
+				A91D5EA6269A58430036AF85 /* CustomViewCell.swift in Sources */,
 				A9414D8A2699B7F3005898A6 /* AppDelegate.swift in Sources */,
 				A9414D8C2699B7F3005898A6 /* SceneDelegate.swift in Sources */,
+				A9BA2B80269A5F6100A38CC8 /* DetailsViewController.swift in Sources */,
+				A91D5EA3269A22A40036AF85 /* ParseData.swift in Sources */,
+				A91D5E9F269A0E370036AF85 /* FlowersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

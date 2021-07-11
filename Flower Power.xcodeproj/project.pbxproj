@@ -51,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				A91D5EA0269A10020036AF85 /* FlowersModel.swift */,
-				A9BA2B7F269A5F6100A38CC8 /* DetailsViewController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -96,6 +95,7 @@
 				A91D5E9D269A0DC80036AF85 /* View */,
 				A91D5E9C269A0DBD0036AF85 /* View Model */,
 				A91D5E9B269A0DB30036AF85 /* Model */,
+				A9BA2B7F269A5F6100A38CC8 /* DetailsViewController.swift */,
 				A91D5E9E269A0E370036AF85 /* FlowersViewController.swift */,
 				A91D5EA4269A58430036AF85 /* CustomViewCell.swift */,
 				A9414D892699B7F3005898A6 /* AppDelegate.swift */,

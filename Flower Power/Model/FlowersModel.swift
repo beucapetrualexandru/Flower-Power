@@ -12,6 +12,7 @@ struct Flower: Codable {
     let description: String
     let price: Int
     let image_url: String
+    let status: String
     let deliver_to: DeliverTo
 }
 

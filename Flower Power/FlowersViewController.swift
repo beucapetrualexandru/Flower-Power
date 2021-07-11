@@ -37,6 +37,15 @@ extension FlowersViewController: UITableViewDelegate, UITableViewDataSource {
         cell.priceLabel.text = "\(model.price) lei"
         return cell
     }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "showDetails", sender: self)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? DetailsViewController
+        {
+            destination.details = flower[tableView.indexPathForSelectedRow!.row]
+        }
+    }
     
    
 }

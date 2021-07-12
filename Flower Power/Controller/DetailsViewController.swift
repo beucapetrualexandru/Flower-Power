@@ -23,6 +23,7 @@ class DetailsViewController: UIViewController {
         }
         if let address = details?.deliver_to.address {
             addressLabel.text = address
+            
         }
         if let status = details?.status {
             statusLabel.text = status

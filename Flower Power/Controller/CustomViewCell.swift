@@ -8,21 +8,20 @@
 import UIKit
 
 class CustomViewCell: UITableViewCell {
-
+    
     @IBOutlet weak var ordersLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
-    
     @IBOutlet weak var priceLabel: UILabel!
     static let cellIdentifier = "CustomViewCell"
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-       
+        
+        
     }
     
     static func nib() -> UINib {

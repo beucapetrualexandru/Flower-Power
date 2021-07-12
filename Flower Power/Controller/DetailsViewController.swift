@@ -6,8 +6,9 @@
 //
 
 import UIKit
-
+import Kingfisher
 class DetailsViewController: UIViewController {
+    
     var details: Flower?
     
     @IBOutlet weak var nameLabel: UILabel!
@@ -16,6 +17,7 @@ class DetailsViewController: UIViewController {
     @IBOutlet weak var imageLabel: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         if let name = details?.deliver_to.name {
             nameLabel.text = name
         }
@@ -26,8 +28,13 @@ class DetailsViewController: UIViewController {
             statusLabel.text = status
         }
         
-}
-    }
-
+        imageLabel.kf.indicatorType = .activity
+        imageLabel.kf.setImage(with: URL(string: details!.image_url), options: [.transition(.fade(0.5)), .cacheOriginalImage])
         
+    }
+}
+
+
+
+
 

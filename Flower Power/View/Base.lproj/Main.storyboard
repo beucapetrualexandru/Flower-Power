@@ -48,9 +48,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RgG-zH-qX6">
-                                <rect key="frame" x="109" y="170" width="197" height="114"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RgG-zH-qX6">
+                                <rect key="frame" x="50" y="138" width="314" height="159.5"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="Hij-cL-9sl">
                                 <rect key="frame" x="113" y="357.5" width="188.5" height="181.5"/>
@@ -112,8 +111,12 @@
                         <viewLayoutGuide key="safeArea" id="s2w-8l-z0U"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="RgG-zH-qX6" firstAttribute="leading" secondItem="s2w-8l-z0U" secondAttribute="leading" constant="50" id="MQD-Yy-vvL"/>
                             <constraint firstItem="Hij-cL-9sl" firstAttribute="centerY" secondItem="QQ2-GX-9Z3" secondAttribute="centerY" id="O7M-5K-WeE"/>
                             <constraint firstItem="Hij-cL-9sl" firstAttribute="centerX" secondItem="QQ2-GX-9Z3" secondAttribute="centerX" id="Szb-SL-WNH"/>
+                            <constraint firstItem="s2w-8l-z0U" firstAttribute="trailing" secondItem="RgG-zH-qX6" secondAttribute="trailing" constant="50" id="gBN-Dw-vqC"/>
+                            <constraint firstItem="RgG-zH-qX6" firstAttribute="top" secondItem="s2w-8l-z0U" secondAttribute="top" constant="50" id="gzi-DW-mJC"/>
+                            <constraint firstItem="Hij-cL-9sl" firstAttribute="top" secondItem="RgG-zH-qX6" secondAttribute="bottom" constant="60" id="sC5-1M-3fL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LQ4-CE-hL8"/>

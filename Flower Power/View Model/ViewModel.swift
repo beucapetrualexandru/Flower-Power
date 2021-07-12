@@ -5,12 +5,12 @@
 //  Created by Beuca Alexandru on 10.07.2021.
 //
 import Foundation
+import UIKit
 
 
- class ParseData {
+class ViewModel {
     var flower = [Flower]()
-    let urlString = "https://demo4543095.mockable.io"
-    
+    let urlString = "https://demo3151336.mockable.io"
     func downloadJSON (completed: @escaping ([Flower]) -> ()) {
         let url = URL (string: urlString)
         URLSession.shared.dataTask(with: url!) { (data, response, error) in
@@ -25,6 +25,7 @@ import Foundation
                 }
             }
         }.resume()
-        
     }
 }
+
+
